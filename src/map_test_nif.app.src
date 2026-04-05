@@ -1,0 +1,7 @@
+{application, map_test_nif, [
+    {description, "bad map reproducer"},
+    {vsn, "0.42.0"},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {env, []}
+]}.
